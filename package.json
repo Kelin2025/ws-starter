@@ -1,6 +1,6 @@
 {
   "name": "@frameninja/ws-starter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Quickly start websocket-based application",
   "author": "kelin2025@yandex.ru",
   "license": "ISC",
