@@ -15,7 +15,7 @@ const init = ({ port, path, actions }) => {
     path || `ws://localhost:${port || getQueryVariable("port")}`
   )
 
-  const parseMessage = ({ action, ...payload }) => {
+  const parseMessage = ({ action, payload }) => {
     actions[action](payload)
   }
 
